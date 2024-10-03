@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #343a40; /* Fundo mais escuro */
+    border: 1px solid #495057; /* Bordas em cinza mais claro */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Vermelho forte */
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Vermelho escuro ao passar o mouse */
+    border-color: #bd2130;
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Amarelo forte */
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Amarelo escuro ao passar o mouse */
+    border-color: #d39e00;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important; /* Cinza forte para o modal */
+}
